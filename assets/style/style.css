@@ -1,0 +1,49 @@
+.jumbotron {
+    color: #03a4f4 !important;
+    background-color: darkturquoise;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+    
+    }
+
+
+
+.jumbotron h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    
+    }
+
+.container {
+    padding: 10px;
+
+    background: linear-gradient(272deg, #246655, #662465, #22deef);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 13s ease infinite;
+    animation: AnimationName 13s ease infinite;
+    -moz-animation: AnimationName 13s ease infinite;
+    }
+
+    @-webkit-keyframes AnimationName {
+    0%{background-position:0% 23%}
+    50%{background-position:100% 78%}
+    100%{background-position:0% 23%}
+    }
+
+    @keyframes AnimationName { 
+    0%{background-position:0% 23%}
+    50%{background-position:100% 78%}
+    100%{background-position:0% 23%}
+}
+
+label {
+    color: white;
+
+}
+
+.Response {
+    color: white;
+}
