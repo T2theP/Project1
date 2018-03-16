@@ -30,7 +30,7 @@ function app(user) {
   // user.email
   // user.photoURL
   // user.uid
-  document.getElementById("guest").innerHTML = user.displayName;
+  document.getElementById("guest").innerHTML = "Test";
 }
 
 window.onload = login;
